@@ -1,7 +1,7 @@
 /**
  * effigy.js v0.0.1
  * the toolbelt for your image uploader - released under MIT License
- * Author: Robert Stettner <robert@effigy.io>
+ * Author: Robert Stettner <robert.stettner@gmail.com>
  * http://github.com/robertstettner/effigyjs
  * Copyright (c) 2014 Robert Stettner
  *
