@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.site-header {
+    background-color: #2f4154;
+}
+.site-header-inner {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-header-inner:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.site-content-inner {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brand {
+    float: left;
+    color: #fff;
+    line-height: 40px;
+}
+
+
+.tools {
+    display: none;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    color: #34495e;
+    background-color: #eff0f2;
+}
+.tools-inner {
+    padding: 10px;
+}
+.tools .footer {
+    padding-top: 10px;
+}
+.tools .content:after,
+.tools .footer:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.tools .preview {
+    float: left;
+    width: 80%;
+}
+.tools .controls {
+    float: left;
+    width: 20%;
+}
+.btn {
+    border: none;
+    border-radius: 6px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    padding: 10px 19px;
+    margin-bottom: 0;
+    color: #ffffff;
+    background-color: #34495e;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+            transition: border .25s linear, color .25s linear, background-color .25s linear;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+    background-image: none;
+}
+.btn:hover {
+    color: #ffffff;
+    background-color: #415b76;
+    border-color: #415b76;
+}
+.btn.btn-block {
+    display: block;
+    width: 100%;
+    white-space: normal;
+}
+.btn.btn-xl {
+    font-size: 26px;
+    line-height: 32px;
+}
+.right {
+    float: right;
+}
+.hide {
+    display: none;
+}

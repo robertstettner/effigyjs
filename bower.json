@@ -1,0 +1,13 @@
+{
+  "name": "effigy",
+  "version": "0.0.1",
+  "main": ["./dist/effigy.min.js", "./dist/effigy.full.min.js"],
+  "ignore": [
+    "examples/",
+    "test/"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7.*",
+    "jcrop": ">= 0.9.12"
+  }
+}

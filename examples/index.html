@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>effigy.js example page</title>
+        <link rel="stylesheet" type="text/css" href="example.css">
+        <link rel="stylesheet" type="text/css" href="../bower_components/jcrop/css/jquery.Jcrop.css">
+        <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="../bower_components/jcrop/js/jquery.Jcrop.min.js"></script>
+        <script type="text/javascript" src="../dist/effigy.js"></script>
+        <script type="text/javascript" src="example.js"></script>
+    </head>
+    <body>
+        <div class="site">
+            <div class="site-inner">
+                <div class="site-header">
+                    <div class="site-header-inner">
+                        <div class="brand">effigy.js</div>
+                    </div>
+                </div>
+                <div class="site-content">
+                    <div class="site-content-inner">
+                        <div class="tools">
+                            <div class="tools-inner">
+                                <div class="header"></div>
+                                <div class="content">
+                                    <div class="preview">
+                                        <img id="preview">
+                                    </div>
+                                    <div class="controls">
+                                        <button id="tools-rotate" type="button" class="btn">Rotate</button>
+                                        <button id="tools-crop" type="button" class="btn">Crop</button>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <button id="upload-image" type="button" class="btn right">Upload</button>
+                                    <button id="cancel" type="button" class="btn right">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="add-image" type="button" class="btn btn-xl btn-block">Add image</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
