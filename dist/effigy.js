@@ -139,11 +139,11 @@
 
 
             if(img.width > img.height){
-                h = height*img.height/img.width;
-                w = width;
+                h = canvas.height*img.height/img.width;
+                w = canvas.width;
             }else{
-                w = width*img.width/img.height;
-                h = height;
+                w = canvas.width*img.width/img.height;
+                h = canvas.height;
             }
 
             if((angle % 180) > 0){
