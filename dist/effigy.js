@@ -125,7 +125,11 @@
                 tCtx = tCanvas.getContext("2d"),
                 w, h;
 
-            canvas.width = canvas.height = (width > height ? width : height);
+            if(Math.abs(angle % 180) > 0){
+                canvas.width = canvas.height = (width > height ? height : width);
+            }else{
+                canvas.width = canvas.height = (width > height ? width : height);
+            }
 
             //clear canvas
             ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -146,7 +150,7 @@
                 h = canvas.height;
             }
 
-            if((angle % 180) > 0){
+            if(Math.abs(angle % 180) > 0){
                 tCanvas.width = h;
                 tCanvas.height = w;
             }else{
